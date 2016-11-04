@@ -24,6 +24,6 @@ def print_html(result):
     print result
 
 
-if __name__ == 'main':
+if __name__ == '__main__':
     d = Deferred()
     multiple_callbacks(d)
